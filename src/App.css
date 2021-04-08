@@ -1,38 +1,260 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700;800&display=swap');
+
+/* Navigation Bar */
+#navBar{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#navBar::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.4;
+  top:0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Navigation Bar:-  Logo and image */
+#logo{
+  height: 99px;
+  width: 165px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#logo img{
+  height: 99px;
+  width: 113px;
+  margin-left: 10px;
+  margin-top: 0px;
+  filter: invert(1);
+  border-radius: 55px;
+}
+#logo:hover{
+  filter: invert(1);
+}
+
+
+/*Navigation Bar:- List Styling*/
+#navBar ul{
+  display: flex;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navBar ul li{
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navBar ul li a{
+  color: white;
+  display: block;
+  padding: 3px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#navBar ul li a:hover{
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
+
+
+/*Home Section*/
+#home{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 3px 200px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 300px;
+}
+
+#home::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background: url("/img/bg1.jpg") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+
+
+/*Services Section*/
+#services-container{
+  padding: 10px;;
+}
+
+#services-container h1{
+  margin-top: 85px;
+}
+
+#services{
+  display: flex;
+  margin: 30px;
+}
+
+#services .box{
+  border: 2px solid yellow;
+  margin-top: -34px;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 46px;
+  background: #d9e8ea94;
+  box-shadow: inset 2px 0px 10px 3px;
+}
+
+#services .box img{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  display: block;
+  border-radius: 30px;
+}
+
+
+/*client section*/
+#client-section{
+  height: 344px;
+}
+
+#client-section::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  z-index: -1;
+  background: url('/img/bg2.jpg') no-repeat center center/cover;
+  opacity: 0.5;
+}
+
+#clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-item{
+  padding: 34px;
+}
+
+#clients img{
+  height: 160px;
+  border-radius: 30px;
+}
+
+
+/*Contact Section*/
+#contact{
+  position: relative;
+}
+
+#contact::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  background: url('/img/contact1.jpg') no-repeat center center/cover;
+}
+
+#contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+#contact input, textarea{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+#contact-box form{
+  width: 40%;
+}
+
+#contact-box label{
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+}
+
+.form{
+  border: 5px solid #140a55;
+  padding: 30px;
+  border-radius: 33px;
+  box-shadow: 0px 0px 15px 10px;
+  //background-color: #cdc3c3;
+}
+
+
+/*footer section*/
+footer{
+  margin-bottom: 2px;
+}
+
+
+/* Utility classes */
+#home h1{
   color: white;
+  text-align: center;
+  margin-top: 90px;
 }
 
-.App-link {
-  color: #61dafb;
+#home p{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: 'Bree Serif', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h-primary{
+  font-size: 2.8rem;
+  font-family: 'Baloo Bhai 2', serif;
+  padding: 12px;
+}
+
+.h-secondary{
+  font-size: 2rem;
+  font-family: 'Baloo Bhai 2', serif;
+  padding: 12px;
+}
+
+.btn11{
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  height: 55px;
+  width: 160px;
+  font-size: 21px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn11:hover{
+  background-color: yellow;
+  color: black;
+  border: 3px solid black;
+  font-weight: bolder;
+}
+
+.center{
+  text-align: center;
 }
