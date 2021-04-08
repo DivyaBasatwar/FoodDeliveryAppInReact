@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FoodDeliveryAppInReact/static/css/main.9e6ee501.chunk.css",
+    "main.js": "/FoodDeliveryAppInReact/static/js/main.81a483a9.chunk.js",
+    "main.js.map": "/FoodDeliveryAppInReact/static/js/main.81a483a9.chunk.js.map",
+    "runtime-main.js": "/FoodDeliveryAppInReact/static/js/runtime-main.486c79ab.js",
+    "runtime-main.js.map": "/FoodDeliveryAppInReact/static/js/runtime-main.486c79ab.js.map",
+    "static/css/2.8d3f7698.chunk.css": "/FoodDeliveryAppInReact/static/css/2.8d3f7698.chunk.css",
+    "static/js/2.b7b4a2d9.chunk.js": "/FoodDeliveryAppInReact/static/js/2.b7b4a2d9.chunk.js",
+    "static/js/2.b7b4a2d9.chunk.js.map": "/FoodDeliveryAppInReact/static/js/2.b7b4a2d9.chunk.js.map",
+    "index.html": "/FoodDeliveryAppInReact/index.html",
+    "precache-manifest.3978045659f8ce39bc9a84c4d07cb625.js": "/FoodDeliveryAppInReact/precache-manifest.3978045659f8ce39bc9a84c4d07cb625.js",
+    "service-worker.js": "/FoodDeliveryAppInReact/service-worker.js",
+    "static/css/2.8d3f7698.chunk.css.map": "/FoodDeliveryAppInReact/static/css/2.8d3f7698.chunk.css.map",
+    "static/css/main.9e6ee501.chunk.css.map": "/FoodDeliveryAppInReact/static/css/main.9e6ee501.chunk.css.map",
+    "static/js/2.b7b4a2d9.chunk.js.LICENSE.txt": "/FoodDeliveryAppInReact/static/js/2.b7b4a2d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.486c79ab.js",
+    "static/css/2.8d3f7698.chunk.css",
+    "static/js/2.b7b4a2d9.chunk.js",
+    "static/css/main.9e6ee501.chunk.css",
+    "static/js/main.81a483a9.chunk.js"
+  ]
+}
